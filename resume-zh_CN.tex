@@ -7,52 +7,43 @@
 %\usepackage{zh_CN-Adobefonts_internal} % Simplified Chinese Support using system fonts
 \usepackage{linespacing_fix} % disable extra space before next section
 \usepackage{cite}
-
+\usepackage{amsmath}
 \begin{document}
 \pagenumbering{gobble} % suppress displaying page number
 
-\name{你的大名}
+\name{杨骄龙} 
 
 \basicInfo{
-  \email{yuanbin2014@gmail.com} \textperiodcentered\ 
-  \phone{(+86) 131-221-87xxx} \textperiodcentered\ 
-  \linkedin[billryan8]{https://www.linkedin.com/in/billryan8}}
- 
-\section{\faGraduationCap\  教育背景}
-\datedsubsection{\textbf{上海交通大学}, 上海}{2013 -- 至今}
-\textit{在读硕士研究生}\ 信息与通信工程, 预计 2016 年 3 月毕业
-\datedsubsection{\textbf{西安电子科技大学}, 西安, 陕西}{2009 -- 2013}
-\textit{学士}\ 通信工程
+  \email{yang.jiaolong@foxmail.com} \textperiodcentered\ 
+  \phone{(+86) 18810300557} \textperiodcentered\ 
+%  \linkedin[billryan8]{https://www.linkedin.com/in/billryan8}}
+ }
+\section{\faGraduationCap 教育背景}
+\datedsubsection{\textbf{北京邮电大学}, 北京}{2015 -- 至今}
+\textit{在读硕士研究生}\ 电子信息工程, 预计 2018 年 3 月毕业
+\datedsubsection{\textbf{北京邮电大学}, 北京}{2011.9 -- 2015}
+\textit{学士}\ 信息工程
 
-\section{\faUsers\ 实习/项目经历}
-\datedsubsection{\textbf{黑科技公司} 上海}{2015年3月 -- 2015年5月}
-\role{实习}{经理: 高富帅}
-xxx后端开发
+\section{\faUsers\ 科研/项目经历}
+
+\datedsubsection{\textbf{MIMO中继通信系统研究}}{2016年1月 -- 至今}
+\role{科研}{}
+MIMO中继通信系统优化  
 \begin{itemize}
-  \item 实现了 xxx 特性
-  \item 后台资源占用率减少8\%
-  \item xxx
+  \item 提出一种QoS约束下基于半定规划的迭代优化方案
+  \item 比之前最好结果性能提高，且计算复杂度从$o(n^6)$降低至$o(n^3)$
+  \item 当前一篇领域顶刊IEEE Trans.on Signal Processing(IF2.624)在投。
 \end{itemize}
 
-\datedsubsection{\textbf{分布式科学上网姿势}}{2014年6月 -- 至今}
-\role{Golang, Linux}{个人项目，和富帅糕合作开发}
+\datedsubsection{\textbf{LTE物理层链路级仿真平台搭建}}{2016年10月 -- 至今}
+\role{企业项目}{}
 \begin{onehalfspacing}
-分布式负载均衡科学上网姿势, https://github.com/cyfdecyf/cow
+担任主程序员，负责程序框架、流程，以及主要信道PUSCH的编写工作,其它信道通过增删PUSCH信道模块实现。
 \begin{itemize}
-  \item 修复了连接未正常关闭导致文件描述符耗尽的 bug
-  \item 使用Chord 哈希 URL, 实现稳定可靠地分流
-  \item xxx (尽量使用量化的客观结果)
-\end{itemize}
-\end{onehalfspacing}
-
-\datedsubsection{\textbf{\LaTeX\ 简历模板}}{2015 年5月 -- 至今}
-\role{\LaTeX, Python}{个人项目}
-\begin{onehalfspacing}
-优雅的 \LaTeX\ 简历模板, https://github.com/billryan/resume
-\begin{itemize}
-  \item 容易定制和扩展
-  \item 完善的 Unicode 字体支持，使用 \XeLaTeX\ 编译
-  \item 支持 FontAwesome 4.5.0
+  \item 搭建符合3GPP-TS36.211-213文档的链路级仿真平台
+  \item 模块化、基于c++11
+  \item 复杂的流程控制以及控制逻辑
+  \item 包含基2-fft, 2-3-5混合基fft, 矩阵运算、turbo码编译码等功能实现
 \end{itemize}
 \end{onehalfspacing}
 
@@ -63,26 +54,22 @@ xxx后端开发
 %  \item main contribution
 %\end{itemize}
 
-\section{\faCogs\ IT 技能}
+\section{\faCogs\ 技能}
 % increase linespacing [parsep=0.5ex]
 \begin{itemize}[parsep=0.5ex]
-  \item 编程语言: C == Python > C++ > Java
-  \item 平台: Linux
-  \item 开发: xxx
+  \item 编程语言: 熟练matlab，c、c++。会一点java、php+js+html+css。
+  \item 数学: 熟练各种矩阵处理技巧，凸优化，随机过程。
+  \item 开发: 有过项目经历。
 \end{itemize}
 
 \section{\faHeartO\ 获奖情况}
-\datedline{\textit{第一名}, xxx 比赛}{2013 年6 月}
-\datedline{其他奖项}{2015}
+\datedline{\textit{一等奖(M奖)}, 本科期间建模美赛（MCM）}{2014 年1 月}
 
 \section{\faInfo\ 其他}
 % increase linespacing [parsep=0.5ex]
 \begin{itemize}[parsep=0.5ex]
-  \item 技术博客: http://blog.yours.me
-  \item GitHub: https://github.com/username
-  \item 语言: 英语 - 熟练(TOEFL xxx)
+  \item 语言: 英语 - 六级
 \end{itemize}
-
 %% Reference
 %\newpage
 %\bibliographystyle{IEEETran}
